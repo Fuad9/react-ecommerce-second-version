@@ -1,0 +1,32 @@
+.shop-container {
+   display: flex;
+}
+
+.product-container {
+   width: 70%;
+   margin-left: 20px;
+   margin-right: 5px;
+   /* border-right: 1px solid lightgray; */
+   border-bottom: 1px solid lightgray;
+}
+
+.product-container input {
+   margin: 15px 0 10px 20px;
+   border-radius: 30px;
+   outline: none;
+   width: 75%;
+   height: 60px;
+}
+
+.product-container input:hover {
+   border: 4px solid green;
+}
+
+.product-container button {
+   border-radius: 30px;
+   margin-left: -50px;
+   background-image: linear-gradient(45deg, #ff5100, #ffa500);
+   outline: none;
+   height: 59px;
+   width: 100px;
+}
