@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 import { getDatabaseCart, removeFromDatabaseCart } from "../../../utilities/databaseManager";
 import fakeData from "../../../fakeData";
 
 import ReviewItems from "../ReviewItems/ReviewItems";
 import Cart from "../Cart/Cart";
-import { Link } from "react-router-dom";
 
 const Review = () => {
    const [cart, setCart] = useState([]);
